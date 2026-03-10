@@ -1,0 +1,251 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(#7a1c1c,#b94b4b);
+color:white;
+}
+
+/* MENU */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#5a0f0f;
+padding:15px;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:40px;
+list-style:none;
+margin:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.inicio{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding-top: 60px;
+}
+
+.bandeira{
+   width:600px;
+   margin-top:20px;
+}
+
+.descrição{
+    font-size: 22px;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.comidas{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   gap:30px;
+   padding:50px;
+}
+
+.titulo-comida{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.restaurantes{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 40px;
+}
+
+.card{
+width:300px;
+background:rgba(255,255,255,0.15);
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.tabela-restaurantes{
+width:100%;
+max-width:1000px;
+margin:auto;
+border-spacing:30px;
+text-align:center;
+}
+
+.tabela-restaurantes img{
+width:180px;
+border-radius:10px;
+}
+
+.tabela-restaurantes td{
+background:rgba(255,255,255,0.15);
+padding:20px;
+border-radius:10px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 28px;
+}
+.contato{
+    background:linear-gradient(#7a1c1c,#b94b4b);
+    color:white;
+    padding:60px 20px;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .contato-container{
+    background:#f7c6c7;
+    padding:40px;
+    border-radius:12px;
+    max-width:500px;
+    width:100%;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  .contato h2{
+    color:#b94b4b;
+    margin-bottom:10px;
+    font-family:Arial, sans-serif;
+  }
+  
+  .contato p{
+    color:#b94b4b;
+    margin-bottom:25px;
+  }
+  
+  .contato form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+  }
+  
+  .contato input,
+  .contato textarea{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:14px;
+  }
+  
+  .contato textarea{
+    resize:none;
+    height:120px;
+  }
+  
+  .contato button{
+    background:#6b0f1a;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+  }
+  
+  .contato button:hover{
+    background:#8e1c2f;
+  }
+
+  .footer{
+    background:#6b0f1a;
+    color:#fff;
+    padding-top:40px;
+    font-family:Arial, sans-serif;
+    
+  }
+  
+  .footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    max-width:1100px;
+    margin:auto;
+    padding:0 20px;
+    gap:30px;
+  }
+  
+  .footer-col{
+    flex:1;
+    min-width:220px;
+  }
+  
+  .footer-col h2{
+    color:#f7c6c7;
+    margin-bottom:10px;
+  }
+  
+  .footer-col h3{
+    color:#f7c6c7;
+    margin-bottom:10px;
+  }
+  
+  .footer-col p{
+    color:#f3d6d6;
+    font-size:14px;
+  }
+  
+  .footer-col ul{
+    list-style:none;
+    padding:0;
+  }
+  
+  .footer-col ul li{
+    margin:8px 0;
+  }
+  
+  .footer-col ul li a{
+    text-decoration:none;
+    color:#fff;
+    transition:0.3s;
+  }
+  
+  .footer-col ul li a:hover{
+    color:#f7c6c7;
+  }
+  
+  
+  .footer-bottom{
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+    background:#520a14;
+    font-size:14px;
+  }
